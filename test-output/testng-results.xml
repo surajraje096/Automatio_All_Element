@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50330" started-at="2020-07-11T13:06:37 IST" finished-at="2020-07-11T13:07:27 IST">
+    <groups>
+      <group name="SytemTest">
+        <method signature="AutomationTest.Alert()[pri:1, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="Alert" class="com.wordpress.qa.testcases.AutomationTest"/>
+        <method signature="AutomationTest.acti()[pri:2, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="acti" class="com.wordpress.qa.testcases.AutomationTest"/>
+        <method signature="AutomationTest.actip()[pri:3, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="actip" class="com.wordpress.qa.testcases.AutomationTest"/>
+      </group> <!-- SytemTest -->
+      <group name="Smoke">
+        <method signature="AutomationTest.Alert()[pri:1, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="Alert" class="com.wordpress.qa.testcases.AutomationTest"/>
+        <method signature="AutomationTest.acti()[pri:2, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="acti" class="com.wordpress.qa.testcases.AutomationTest"/>
+        <method signature="AutomationTest.actip()[pri:3, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="actip" class="com.wordpress.qa.testcases.AutomationTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="50330" started-at="2020-07-11T13:06:37 IST" finished-at="2020-07-11T13:07:27 IST">
+      <class name="com.wordpress.qa.testcases.AutomationTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="setup" is-config="true" duration-ms="13346" started-at="2020-07-11T13:06:37 IST" finished-at="2020-07-11T13:06:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Alert()[pri:1, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="Alert" duration-ms="1321" started-at="2020-07-11T13:06:50 IST" finished-at="2020-07-11T13:06:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alert -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="tearDown" is-config="true" duration-ms="4" started-at="2020-07-11T13:06:52 IST" finished-at="2020-07-11T13:06:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Alert status=SUCCESS method=AutomationTest.Alert()[pri:1, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="setup" is-config="true" duration-ms="14893" started-at="2020-07-11T13:06:52 IST" finished-at="2020-07-11T13:07:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="acti()[pri:2, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="acti" duration-ms="1796" started-at="2020-07-11T13:07:06 IST" finished-at="2020-07-11T13:07:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- acti -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-07-11T13:07:08 IST" finished-at="2020-07-11T13:07:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=acti status=SUCCESS method=AutomationTest.acti()[pri:2, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="setup" is-config="true" duration-ms="18227" started-at="2020-07-11T13:07:08 IST" finished-at="2020-07-11T13:07:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="actip()[pri:3, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="actip" duration-ms="581" started-at="2020-07-11T13:07:27 IST" finished-at="2020-07-11T13:07:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- actip -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23]" name="tearDown" is-config="true" duration-ms="3" started-at="2020-07-11T13:07:27 IST" finished-at="2020-07-11T13:07:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=actip status=SUCCESS method=AutomationTest.actip()[pri:3, instance:com.wordpress.qa.testcases.AutomationTest@1d29cf23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.wordpress.qa.testcases.AutomationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
